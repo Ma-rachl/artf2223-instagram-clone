@@ -4,4 +4,4 @@ We plan on spoofing Instagram’s website to juxtapose the app’s original purp
 
 
 ## View it here :D
-[adstagram.netlify.app]
+https://adstagram.netlify.app
