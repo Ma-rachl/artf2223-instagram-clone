@@ -19,7 +19,7 @@ body{
 .left-navbar{
     position:fixed;
     /*width: 250px;*/
-    /*height: 100vh;*/
+    height: 100vh;
 
     background: white;
     z-index:2;
@@ -83,7 +83,8 @@ body{
 /*COME BACK AND FIX THIS LAYOUT LATER*/
 .stories-row{
     margin-top:50px !important;
-
+    overflow: auto;
+    white-space: nowrap;
 }
 .stories-item{
     float: left!important;
@@ -105,15 +106,15 @@ body{
     text-underline-mode: none;
 }
 
-/* right nav items*/
+/* right nav items (suggestiong*/
 .right-navbar{
 
 }
 
 
+
 .rec-item{
     margin-left: 10px;
-    padding-top: 10px;
 
     text-decoration: none;
 }
@@ -132,8 +133,78 @@ body{
 .recbar-text{
     margin-left: 10px;
     font-weight: 400;
-    font-size:1.1rem;
+    font-size: 15px;
     color:black !important;
     align-items: center;
     line-height: 55px;
+}
+.rec-Profile-img{
+    width:50px;
+}
+
+.rec-first-item{
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-top:50px !important;
+
+    text-decoration: none;
+}
+
+.recbar-seeall{
+    margin-left: 65px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.recbar-switch{
+    margin-left: 70px;
+    font-size: 13px;
+    font-weight: bold;
+    color:lightskyblue;
+}
+
+.suggestions{
+    color: grey;
+    font-size: 15px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.rec-item-suggestion{
+    margin-top: 15px;
+    margin-left:8px;
+}
+
+/*A post*/
+
+.container-mainContent{
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+#post-img{
+    margin-top: 10px;
+}
+.account-name{
+    font-weight: bold;
+}
+.post-profile-pic{
+    width:45px;
+}
+
+#more{
+    margin-right:5px;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+.view-comments{
+    font-size: 14px;
+    color:grey;
+
+}
+.post-card{
+    width: 440px;
+    /*border-style: solid;*/
+
 }
